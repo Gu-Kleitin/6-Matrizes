@@ -7,7 +7,6 @@ public class Gustavo2 {
     Scanner sc = new Scanner(System.in);
     double Matriz[][] = new double[3][5];
     double VetSum[] = new double[3];
-    double indice=0;
     System.out.println("Preencha a matriz 3x5 com números reais: ");
     for(int i=0; i<Matriz.length;i++){
       for (int j = 0; j < Matriz[0].length; j++) {
@@ -16,9 +15,9 @@ public class Gustavo2 {
         System.out.printf("Elemento ["+ Ind + "]["+ Jind+"]: ");
         Matriz[i][j] = sc.nextInt();
         VetSum[i] += Matriz[i][j];
-        indice = VetSum[i];
       }
     }
+
     int linhaMV = 0;
     double maiorValor = VetSum[0];
     for (int i = 1; i < VetSum.length; i++) {

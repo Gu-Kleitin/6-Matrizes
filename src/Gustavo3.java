@@ -43,6 +43,7 @@ public class Gustavo3 {
       return;
     }
 
+    ImprimirMatriz print = new ImprimirMatriz();
     double[][] matrizC = new double[matrizA.length][matrizB[0].length];
 
     //multiplicando
@@ -55,11 +56,7 @@ public class Gustavo3 {
     }
 
     System.out.println("Matriz resultante C:");
-    for(int i = 0; i < matrizC.length; i++) {
-      for (int j = 0; j < matrizC[0].length; j++) {
-        System.out.printf("%.2f ", matrizC[i][j]);
-      }
-      System.out.println();
-    }
+
+    print.imprimirMatriz(matrizC);
   }
 }
