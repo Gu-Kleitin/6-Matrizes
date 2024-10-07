@@ -1,10 +1,15 @@
-/*12. Faça um programa que receba o estoque atual de 3 produtos que estão armazenados em 4 armazéns e
-coloque esses dados em uma matriz 5 x 3. Sendo que a última linha da matriz contém o custo de
-estocagem de uma unidade de cada produto, calcule e mostre:
-a) Quantidade de itens armazenados em cada armazém;
-b) Qual armazém possui maior estoque do produto 2;
-c) Qual armazém possui menor estoque;
-d) Qual armazém possui maior custo de estocagem.*/
+/*11. Considere n cidades numeradas de 0 a n-1 que estão interligadas por uma série de estradas de mão única.
+As ligações entre as cidades são representadas pelos elementos de uma matriz quadrada Lnxn, cujos
+elementos lij assumem o valor 1 ou 0, conforme exista ou não estrada direta que saia da cidade i e chegue
+à cidade j. Assim, os elementos da linha i indicam as estradas que saem da cidade i, e os elementos da coluna j indicam as estradas que chegam à cidade j. Por convenção lii = 1. A figura abaixo um exemplo
+para n = 4.
+
+a) Dada uma cidade k, determine quantas estradas saem de k e quantas cidades chegam à k.
+b) Qual das cidades possuem maior número de estradas chegando?
+c) Encontre, se existirem, as cidades isoladas. Ou seja, aquelas em que não chegam nem saem estradas.
+d) Dada uma determinada rota de m cidades, representada por um vetor de inteiros cujos valores estão
+entre 0 e n-1, tal como exercício anterior, verifique se é possível realizar tal rota. No exemplo anterior,
+a rota (m = 5) 2 3 2 1 0 é impossível; já a rota (m = 6) 0 1 2 3 2 0 é possível.*/
 import java.util.Scanner;
 
 public class gustavo11 {
